@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="crear_flask_app",
-    version="0.1",
+    name="FlaskKit",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=[
         "flask",
@@ -11,10 +11,10 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'create-appflask-app=crear_flask_app.__main__:crear_estructura',
+            'fk=crear_flask_app.__main__:crear_estructura',
         ],
     },
-    author="Tu Nombre",
+    author="Deiker Castillo",
     description="Generador de estructura base para proyectos Flask",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
