@@ -6,7 +6,7 @@
 
 ## 📦 ¿Qué hace FlaskKit?
 
-Al ejecutar el comando `flaskkit`, se generará automáticamente una estructura completa con:
+Al ejecutar el comando `fk`, se generará automáticamente una estructura completa con:
 
 - Carpeta `apps/` con módulos que contienen `routers.py` y `db.py`
 - Archivo principal de entrada `run.py`
